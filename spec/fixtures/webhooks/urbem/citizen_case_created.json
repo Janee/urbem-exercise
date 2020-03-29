@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+      "id": 325,
+      "procedure": "Pagos en efectivo",
+      "procedure_id": "pagos_en_efectivo_22c42d84-bfbd-47d0-a228-3ca92ab87d8e",
+      "subject": null,
+      "citizen_name": "Carlos Gónzalez Ochoa",
+      "citizen_first_name": "Carlos",
+      "citizen_fathers_last_name": "González",
+      "citizen_mothers_last_name": "Ochoa",
+      "citizen_email": "carlosgochoa@gmail.com",
+      "citizen_phone": null,
+      "citizen_fb_id": "",
+      "folio": null,
+      "status": "make_payment",
+      "custom_data": {
+        "Clave catastral": "111"
+      },
+      "address": null,
+      "assigned_to": "abi@civica.digital",
+      "created_by": "URBEM dashboard",
+      "created_at": "2020-03-26T16:18:13.740-06:00",
+      "updated_at": "2020-03-26T16:18:30.877-06:00",
+      "description": null,
+      "attachments": [],
+      "labels": [],
+      "done": false,
+      "current_step_id": "e2f35116-2b35-4485-a529-68ed4c481355",
+      "solved_by": null,
+      "amount": null
+  }
+}
