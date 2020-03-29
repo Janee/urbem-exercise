@@ -4,7 +4,7 @@ This application gets an URBEM Event and updates a citizen case according to
 specifications.
 
 
-How to use it in local environment:
+How to run the in your local:
 
 ```
 bundle install
