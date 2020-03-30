@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application gets an URBEM Event and updates a citizen case according to
+specifications.
 
-Things you may want to cover:
 
-* Ruby version
+How to run the in your local:
 
-* System dependencies
+```
+bundle install
+rake db:setup && rake db:migrate
+rails s
+```
 
-* Configuration
+['Ultrahook'](http://www.ultrahook.com/) is a good gem to test webhooks locally.
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Tools used in this app:
+* Postgresql
+* Rspec (with Capybara & Faraday)
+* Postman (to simulate the post event)
