@@ -13,7 +13,6 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
   gem 'rspec-rails' # Behaviour Driven Development for Ruby https://rspec.info/
-  gem 'faraday' # Faraday is an HTTP client library https://lostisland.github.io/faraday/
   gem 'capybara' # Acceptance test framework for web applications http://teamcapybara.github.io/capybara/
   gem 'selenium-webdriver' # Capybara dependence
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -27,3 +26,5 @@ group :development do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+gem 'faraday' # Faraday is an HTTP client library https://lostisland.github.io/faraday/
