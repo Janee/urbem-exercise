@@ -1,4 +1,8 @@
 {
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
       "id": 325,
       "procedure": "Pagos en efectivo",
       "procedure_id": "pagos_en_efectivo_22c42d84-bfbd-47d0-a228-3ca92ab87d8e",
@@ -27,4 +31,5 @@
       "current_step_id": "e2f35116-2b35-4485-a529-68ed4c481355",
       "solved_by": null,
       "amount": null
+  }
 }
