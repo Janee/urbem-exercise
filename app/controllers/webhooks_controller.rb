@@ -25,9 +25,10 @@ class WebhooksController < ApplicationController
         conn.request :retry, max: 1, interval: 0.05
       end
       if response.status == 200
+        params = { "citizen_case": { response.body } }
         url = 'https://api.urbem.digital/v1/citizen_cases/2?auth_token=' +
               Rails.application.credentials.urbem_api_key
-        conn.put(url, response.body, 'Content-Type' => 'application/json') do |req|
+        conn.put(url, params, 'Content-Type' => 'application/json') do |req|
           conn.options.timeout = 0.4
           conn.request :retry, max: 1, interval: 0.05
         end
